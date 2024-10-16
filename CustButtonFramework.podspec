@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/AwaisRiaziOSDev/CustomButton.git', :tag => '1.0.0' }
   s.platform     = :ios, '12.0'
   s.swift_version = '5.0'
-  s.source_files  = 'CustButtonFramework/**/*.{swift,h}'
+  s.source_files  = 'CustomButton/**/*.{swift,h}'
   s.requires_arc = true
 end
